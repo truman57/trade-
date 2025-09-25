@@ -1,0 +1,14 @@
+{
+  "bybit_api": {
+    "api_key": "YOUR_BYBIT_API_KEY",
+    "api_secret": "YOUR_BYBIT_API_SECRET",
+    "base_url": "https://api.bybit.com"
+  },
+  "webhook": {
+    "token": "YOUR_WEBHOOK_SITE_TOKEN",
+    "check_interval": 3
+  },
+  "trading": {
+    "trade_amount_usdt": 10
+  }
+}
