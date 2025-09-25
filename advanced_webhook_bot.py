@@ -389,6 +389,8 @@ def trade_processor_process(signal_queue: Queue, trade_queue: Queue, config: Dic
                 symbol = signal.get('symbol', '').upper()
                 if symbol in symbol_map:
                     symbol = symbol_map[symbol]
+                elif symbol.endswith('USD'):
+                    symbol = symbol.replace('USD', 'USDT')
                 elif not symbol.endswith('USDT'):
                     symbol = f"{symbol}USDT"
                 action = signal.get('action', '').upper()
