@@ -1,14 +1,14 @@
 {
   "bybit_api": {
-    "api_key": "YOUR_BYBIT_API_KEY",
-    "api_secret": "YOUR_BYBIT_API_SECRET",
+    "api_key": "ex6bVII3DW5Gi78EzK",
+    "api_secret": "BNY3bki9Oi86LkXeSg6fEGOSSa2YTA3fF1L6",
     "base_url": "https://api.bybit.com"
   },
   "webhook": {
-    "token": "YOUR_WEBHOOK_SITE_TOKEN",
+    "token": "69ecaa69-8047-4d66-aa34-97d83d7434ea",
     "check_interval": 3
   },
   "trading": {
-    "trade_amount_usdt": 10
+    "trade_amount_usdt": 
   }
 }
