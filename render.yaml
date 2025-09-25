@@ -3,5 +3,5 @@ services:
     name: trading-bot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    startCommand: "python advanced_webhook_bot.py"
     autoDeploy: true
