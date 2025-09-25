@@ -9,6 +9,6 @@
     "check_interval": 3
   },
   "trading": {
-    "trade_amount_usdt": 
+    "trade_amount_usdt": "any"
   }
 }
